@@ -1,0 +1,2 @@
+/* pages/hot/hot.wxss */
+@import '../../weui.wxss';

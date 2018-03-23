@@ -1,0 +1,77 @@
+<view class="main">
+  <view class="item item1">1</view>
+  <view class="item item2">2</view>
+  <view class="item item3">3</view>
+</view>
+
+<view class="weui-flex">
+  <image class='position' src='../../images/index/index-position-mini2.png'></image>
+  <view bindtap='bindfocus' class="weui-flex__item">
+    <view class="input-search">
+      <view class="weui-flex">
+        <icon class="searchcion" size='20' type='search'></icon>
+        <input disabled='true' placeholder="搜索物品" value="{{inputVal}}" />
+      </view>
+    </view>
+  </view>
+  <image class='position' src='../../images/index/index-scan.png'></image>
+</view>
+
+
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">Flex</view>
+    <view class="page__desc">Flex布局</view>
+  </view>
+  <view class="page__bd page__bd_spacing">
+    <view class="weui-flex">
+      <view class="weui-flex__item">
+        <view class="placeholder">weui</view>
+      </view>
+    </view>
+    <view class="weui-flex">
+      <view class="weui-flex__item">
+        <view class="placeholder">weui</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">weui</view>
+      </view>
+    </view>
+    <view class="weui-flex">
+      <view class="weui-flex__item">
+        <view class="placeholder">weui</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">weui</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">weui</view>
+      </view>
+    </view>
+    <view class="weui-flex">
+      <view class="weui-flex__item">
+        <view class="placeholder">weui</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">weui</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">weui</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">weui</view>
+      </view>
+    </view>
+    <view class="weui-flex">
+      <view>
+        <view class="placeholder">weui</view>
+      </view>
+      <view class="weui-flex__item">
+        <view class="placeholder">weui</view>
+      </view>
+      <view>
+        <view class="placeholder">weui</view>
+      </view>
+    </view>
+  </view>
+</view>

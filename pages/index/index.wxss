@@ -1,0 +1,48 @@
+@import '../../weui.wxss';
+@import '../../utils/wxgrid.wxss';
+
+
+ 
+.bc_text {  
+  line-height: 68rpx;  
+  height: 68rpx;  
+  margin-top: 34rpx;  
+}  
+
+.page_row{  
+  display: flex;  
+  padding-bottom: 5px;
+  flex-direction: row
+
+}  
+
+
+.position {
+  width: 50rpx;
+  height: 50rpx;
+  margin: 5px;
+  padding: 5px 10px ;
+  text-align: center;
+  line-height: 2.3em;
+}
+
+.placeholder {
+  margin: 5px;
+  padding: 0 10px;
+  text-align: center;
+  background-color: #ebebeb;
+  height: 2.3em;
+  line-height: 2.3em;
+  color: #cfcfcf;
+}
+
+.input-search {
+  margin: 5px;
+  height: 50rpx;
+  padding: 5px 10px;
+  text-align: center;
+  background-color: #ebebeb;
+  line-height: 2.3em;
+  color: #cfcfcf;
+}
+

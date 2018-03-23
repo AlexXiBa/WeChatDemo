@@ -1,0 +1,33 @@
+
+
+<view class="weui-flex">
+  <image bindtap='position' class='position' src='../../images/index/index-position-mini2.png'></image>
+  <view bindtap='search' class="weui-flex__item">
+    <view class="input-search">
+      <view class="weui-flex">
+        <icon class="searchcion" size='20' type='search'></icon>
+        <input disabled='true' placeholder="搜索物品" value="{{inputVal}}" />
+      </view>
+    </view>
+  </view>
+  <image class='position' src='../../images/index/index-scan.png'></image>
+</view>
+
+
+<swiper style='height :200px;  padding-bottom: 5px;' class='banner' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}" wx:key="id">
+    <swiper-item>
+      <image data-id="{{index}}" bindtap='swiperclick' style='width :{{imageWidth}}px;' class="slide-image" src="{{item.url}}" mode="widthFix" />
+    </swiper-item>
+  </block>
+</swiper>
+<view class="wxgrid">
+  <view wx:for="{{wxgrid.rows}}" wx:for-index="i" class="wxrow">
+    <view wx:for="{{wxgrid.cols}}" wx:for-index="j" class="wxcol" style="width:{{item.width}}%;">
+      <a class="wxclassify" href="#">
+        <image class="wxclassify-img" mode="aspectFit" src="{{wxgrid.data.classifies[i][j].img}}"></image>
+        {{wxgrid.data.classifies[i][j].name}}
+      </a>
+    </view>
+  </view>
+</view>

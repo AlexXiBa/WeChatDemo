@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/map/map",
+    "pages/first/first",
+    "pages/hot/hot",
+    "pages/logs/logs",
+    "pages/my/my",
+    "pages/search/search"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "商城",
+        "iconPath": "images/tabBar/tabbar-shop.png",
+        "selectedIconPath": "images/tabBar/tabbar-shop.png"
+      },
+      {
+        "pagePath": "pages/hot/hot",
+        "text": "活动",
+        "iconPath": "images/tabBar/tabbar-hot.png",
+        "selectedIconPath": "images/tabBar/tabbar-hot.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的账户",
+        "iconPath": "images/tabBar/tabbar-my.png",
+        "selectedIconPath": "images/tabBar/tabbar-my.png"
+      },
+      {
+        "pagePath": "pages/first/first",
+        "text": "例子测试"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "log"
+      }
+    ]
+  }
+}

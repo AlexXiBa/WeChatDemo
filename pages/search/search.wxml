@@ -1,0 +1,16 @@
+<!--pages/search/search.wxml-->
+<text>这里是搜索的界面</text>
+<view class="page">
+  <view class="page__hd">
+
+  </view>
+  <view class="page__bd page__bd_spacing">
+    <view class="weui-flex">
+      <view class="weui-flex__item">
+        <view class="weui-flex__item">
+          <input confirm-type='search' class='input-search' focus='true' placeholder="搜索物品" value="{{inputVal}}" />
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
